@@ -91,7 +91,11 @@ func countErrors(c string, m string) int {
 	if dir == 0 {
 		return 0
 	}
-	return int(math.Ceil((float64((len(m) / 5) - e)) / dir))
+	wpm := int(math.Ceil((float64((len(m) / 5) - e)) / dir))
+	if wpm < 0 {
+		return 0
+	}
+	return wpm
 }
 
 func main() {
