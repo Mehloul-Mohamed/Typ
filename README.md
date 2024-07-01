@@ -4,5 +4,4 @@
 
 # Known Issues:
   - This existing
-  - Negative WPM is possible
   - Calculation of WPM is probably wrong
