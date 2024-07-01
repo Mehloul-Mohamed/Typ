@@ -99,7 +99,7 @@ func countErrors(c string, m string) int {
 }
 
 func main() {
-	txt := "For example, this code always computes a positive elapsed time of approximately 20 millisecondsOperating systems provide both a “wall clock,” which is subject to changes for clock synchronization, and a “monotonic clock,” which is not. The general rule is that the wall clock is for telling time and the monotonic clock is for measuring time. Rather than split the API, in this package the Time returned by time.Now contains both a wall clock reading and a monotonic clock reading; later time-telling operations use the wall clock reading, but later time-measuring operations, specifically comparisons and subtractions, use the monotonic clock reading."
+	txt := "This is a test typing test. I did not implement any paragraph generation so you are stuck with this for now. Enjoy"
 	p := tea.NewProgram(model{message: "", correct_message: txt}, tea.WithAltScreen())
 	p.Run()
 }
